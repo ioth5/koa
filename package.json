@@ -1,0 +1,57 @@
+{
+  "name": "ace",
+  "version": "1.0.0",
+  "description": "ace project",
+  "author": "fed@mamahao.com",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "build": "node build/build.js"
+  },
+  "dependencies": {
+    "element-ui": "^2.2.2",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^3.3.1",
+    "koa-logger": "^2.0.1",
+    "koa-router": "^7.1.1",
+    "koa-static": "^3.0.0",
+    "koa2-history-api-fallback": "^0.0.2",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "nprogress": "^0.2.0",
+    "pug": "^2.0.3",
+    "style-loader": "^0.20.3",
+    "vue": "^2.5.2",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "~6.24.1",
+    "babel-runtime": "~6.26.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.11",
+    "glob": "^7.1.2",
+    "html-webpack-plugin": "^2.30.1",
+    "ip": "^1.1.5",
+    "url-loader": "^1.0.1",
+    "vue-loader": "^13.7.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "engines": {
+    "node": ">= 7.6.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
