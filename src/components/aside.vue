@@ -21,7 +21,7 @@
         navList: [{
           className: "logo",
           index: 0,
-          icon: "el-icon-ace-logo",
+          icon: "el-icon-ace-08",
           path: "/home"
         },{
           index: 1,
